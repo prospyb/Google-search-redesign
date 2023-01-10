@@ -108,3 +108,33 @@
     padding-top: 20px;
     color: #5f6368;
 }
+
+.profile-sec {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 25px 0 0 195px;
+}
+
+.profile-img img {
+    height: 56px;
+    border-radius: 5px;
+}
+
+.cr7-origin {
+    display: flex;
+    align-items: center;
+    margin: 0 5px 0 0;
+}
+
+.cr7-origin p {
+    margin: 0 15px 0 0;
+}
+
+.cr7-profile-links a {
+    padding: 11px 19px;
+    background-color: #e7e7ea;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #222324;
+}
