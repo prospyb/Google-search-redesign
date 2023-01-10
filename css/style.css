@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* The Navbar Css */
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -66,3 +68,37 @@
     color: #5f6368;
     font-size: 20px;
 } 
+
+/* The click section Css */
+
+.click {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45%;
+    margin: 10px 0 0 180px;
+    color: #5f6368;
+}
+
+.click-on {
+    display: flex;
+    gap: 7px;
+    text-decoration: underline solid #1a73e8 3px;
+    text-underline-offset: 15px;
+    color: #1a73e8;
+}
+
+.click-link {
+    display: flex;
+    gap: 7px;
+}
+
+.click-link i {
+    margin: 0 0 0 20px;
+    color: #5f6368;
+}
+
+.click-link .fa-magnifying-glass {
+    margin: 0 0 0 20px;
+    color: #1a73e8;
+}
