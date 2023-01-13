@@ -332,6 +332,135 @@ body {
     margin: 0 15px;
 }
 
+.cr7-wiki {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 20px;
+}
+
+.cr7-wiki a {
+    text-decoration: none;
+    color: #000;
+}
+
+.cr7-wiki span {
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+.cr7-wiki i {
+    margin: 0 10px;
+    color: #5f6368;
+}
+
+.cr7-wiki h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cr7-wiki h3 {
+    color: #1a0dab;
+}
+
+.cr7-wiki h3:hover {
+    color: #1a0dab;
+    text-decoration: underline;
+}
+
+.wiki-link a {
+    color: #1a0dab;
+}
+
+.wiki-link a:hover {
+    color: #1a0dab;
+    text-decoration: underline;
+}
+
+/* People also search for section */
+
+.ppl-search {
+    width: 90%;
+    border: 1px solid #5f6368;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.search-line-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.search-line-1 i {
+    font-size: 12px;
+    color: #5f6368;
+}
+
+.search-line-1 h4 {
+    color: #5f6368;
+}
+
+.search-list td {
+    padding: 2px 20px;
+    font-size: 14px;
+}
+
+.search-list a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.search-list a:hover {
+    text-decoration: underline;
+}
+
+.cr7-ask-top-text {
+    color: #000;
+    font-size: 22px;
+    line-height: 24px;
+    padding: 40px 0 10px 0;
+}
+
+.cr7-ask-top-text-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.feedback {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    bottom: 10px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    font-weight: 400;
+    width: 80px;
+    height: 20px;
+    background-color: #fff;
+}
+
+.feedback-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.feedback a {
+    text-decoration: none;
+    color: #868b91;
+}
+
+.feedback i {
+    margin: 0 15px;
+}
+
 /* About section */
 
 .cr7-about {
