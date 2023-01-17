@@ -673,6 +673,68 @@ body {
     text-decoration: underline;
 }
 
+/* twitter card */
+
+.cr7-twitter-card {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.cr7-twitter-card-1 {
+    border: 1px solid #c8cdd1;
+    border-radius: 10px;
+}
+
+.cr7-twitter-card-txt {
+    padding: 10px;
+    font-size: 14px;
+    color: #5f6368;
+}
+
+.cr7-twitter-card-txt p {
+    line-height: 20px;
+}
+
+.cr7-twitter-card-txt-end-1 {
+    padding-top:140px;
+}
+
+.cr7-twitter-card-txt-end-2 {
+    padding-top: 80px;
+}
+
+.cr7-twitter-card-txt-end-3 {
+    padding-top: 60px;
+}
+
+.cr7-twitter-card-txt p span {
+    color: #000;
+}
+
+.cr7-twitter-card-img-1 {
+    display: flex;
+}
+
+.cr7-twitter-card-img-1 img:nth-child(1) {
+    border-top-left-radius: 10px;
+}
+
+.cr7-twitter-card-img-1 img:nth-child(2) {
+    border-top-right-radius: 10px;
+}
+
+.cr7-twitter-card-img-2 img {
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cr7-twitter-card-img-3 img {
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 
 /* About section */
 
