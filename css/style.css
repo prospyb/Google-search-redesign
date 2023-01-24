@@ -798,6 +798,152 @@ body {
     border-radius: 10px;
 }
 
+.related-search-container span {
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 22px;
+    color: #202124;
+}
+
+.related-search-container span i {
+    font-size: 16px;
+    color: #5f6368;
+    margin-left: 15px;
+    padding-bottom: 10px;
+}
+
+.related-search-accd-first {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+.related-search-accd-first i {
+    color: #868b91;
+}
+
+.related-search-img-wrapper {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    gap: 8px;
+}
+
+.related-search-img {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.related-search-img a {
+    color: #202124;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+.related-search-img a:hover {
+    text-decoration: underline;
+}
+
+.related-search-img img {
+    border-radius: 10px;
+}
+
+.see-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+    margin: 0 auto;
+    width: 300px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #f1f3f4;
+}
+
+.see-more:hover {
+    background-color: #d9dcdd;
+}
+
+.see-more a {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+}
+
+.see-more i {
+    margin: 0 15px;
+}
+
+.related-search-accd-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0 10px 0;
+    font-size: 16px;
+}
+
+.related-search-accd-sec img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.related-search-accd-sec i {
+    color: #868b91;
+}
+
+.related-search-accd-sec a {
+    text-decoration: none;
+    color: #000;
+}
+
+.related-search-accd-sec-fst {
+    display: flex;
+    align-items: center;
+}
+
+.cr7-seh-container {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.cr7-seh-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.cr7-seh-wrapper-1st {
+    display: flex;
+    align-items: center;
+    background-color: #f1f3f4;
+    border-radius: 100px;
+    height: 50px;
+    width: 320px;
+}
+
+.cr7-seh-wrapper-1st i {
+    margin: 0 30px;
+    color: #5f6368;
+}
+
+.cr7-seh-wrapper-1st a {
+    text-decoration: none;
+    color: #000;
+}
+
+.cr7-seh-wrapper-1st a:hover {
+    text-decoration: underline;
+}
+
 
 /* About section */
 
