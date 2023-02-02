@@ -1335,12 +1335,24 @@ body {
     padding-left: 100px;
     padding-top: 15px;
     gap: 10px;
-    border-bottom: 1px solid #d8d9db;
+    border-bottom: 2px solid #d8d9db;
+}
+
+.footer-container-tp a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.footer-container-tp span {
+    color: #5f6368;
 }
 
 .footer-ng {
-    border-right: 1px solid #d8d9db;
+    border-right: 2px solid #d8d9db;
+    padding-right: 20px;
 }
+
+
 
 .footer-container-cr {
     margin: 6px 4px 9px 0;
@@ -1349,12 +1361,22 @@ body {
     height: 10px;
     vertical-align: middle;
     width: 10px;
-    background-color: #000;
+    background-color: #70757a;
 }
 
 .footer-container-bt {
     display: flex;
     padding: 5px 0;
-    gap: 30px;
+    gap: 35px;
     padding-left: 100px;
+    padding-top: 15px;
+}
+
+.footer-container-bt a {
+    text-decoration: none;
+    color: #70757a;
+}
+
+.footer-container-bt a:hover {
+    color: #535151;
 }
