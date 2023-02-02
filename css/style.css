@@ -8,6 +8,10 @@ body {
     font-family: Google Sans,arial,sans-serif-medium,sans-serif;
 }
 
+hr {
+    border-top: 1px solid #dadce0;
+}
+
 /* The Navbar Css */
 
 .navbar {
@@ -216,7 +220,7 @@ body {
 }
 
 .cr7-top-stories-right {
-    border-left: 1px solid #5f6368;
+    border-left: 1px solid #dadce0;
     padding-left: 15px;
 }
 
@@ -292,7 +296,7 @@ body {
 
 .about-cr7-right {
     display: flex;
-    border-left: 1px solid #5f6368;
+    border-left: 1px solid #dadce0;
     padding-left: 10px;
 }
 
@@ -384,7 +388,7 @@ body {
 
 .ppl-search {
     width: 90%;
-    border: 1px solid #5f6368;
+    border: 1px solid #dadce0;
     border-radius: 5px;
     margin-top: 20px;
     padding: 10px;
@@ -1004,7 +1008,7 @@ body {
 /* About section */
 
 .cr7-about {
-    border-left: #222324 solid 1px;
+    border-left: #dadce0 solid 1px;
     width: 28%;
     height: fit-content;
     margin-left: 60px;
